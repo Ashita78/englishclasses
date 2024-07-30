@@ -1,0 +1,15 @@
+Days of the week 
+
+import pandas as pd
+import numpy as np
+
+dataset = pd.DataFrame([
+ ("Monday"),
+ ("Tuesday",),
+ ("Wednesday",),
+ ("Thrusday"),
+ ("Friday"),
+ ("Saturday"),
+ ("Sunday"),
+ ], columns=["Days of the week" ])
+dataset
